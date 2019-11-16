@@ -1,0 +1,245 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 70px;
+    top: 0;
+    width: 99%;
+    /* position: fixed; */
+}
+.menu1{
+    background-color: #112255;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+}
+.menu1 ul{
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+}
+.menu1 ul li{
+    list-style-type: none;
+    display: inline-block;
+    line-height: 70px;
+    padding: 0px 50px;
+}
+.menu1 ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 130%;
+}
+.menu1 ul li:hover{
+    background-color: #0a9cc9;
+    transition: 0.3s;
+}
+.logo{
+    float: right;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(home.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.low{
+    width: 85%;
+    margin: 0 auto;
+}
+.welcome{
+    font-size: 85px;
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.sp{
+    color: deepskyblue;
+}
+.title{
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    height: 300px;
+    font-family: Roboto;
+    color: tomato;
+    background-color: yellow;
+    top: 100vh;
+    left: 18%;
+}
+.title1{
+    position: absolute;
+    /* height: 300px; */
+    top: 125vh;
+    left: 10%;
+}
+#main{
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px bisque;
+}
+#sub{
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin: 10px 0 20px 0;
+    text-shadow: 5px 5px 10px bisque;
+}
+.one{
+    color: #333;
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 90%;
+}
+.one input[name="sections"]{
+    position: absolute;
+}
+.one section{
+    display: block;
+}
+.one section label{
+    background: tomato;
+    font-weight: bolder;
+    font-family: Roboto;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5%;
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    position: relative;
+    width: 190px;
+}
+.one section article{
+    display: none;
+    color: white;
+    left: 260px;
+    min-width: 300px;
+    padding: 0 0 0 20px;
+    position: absolute;
+    top: 0;
+}
+.one section article ::after{
+    background: wheat;
+    position: absolute;
+    display: block;
+    content: none;
+}
+.one input[name="sections"]:checked + label{
+    background: wheat;
+}
+.one input[name="sections"]:checked ~ article{
+    display: block;
+}
+.one .img1{
+    width: 800px;
+    height: 300px;
+    border: 1px solid red;
+    border-radius: 2%;
+}
+.content{
+    width: 50%;
+    /* margin: 0 auto; */
+}
+#chess{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    border-radius: 5%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#chess .imagebox{
+    position: relative;
+    overflow: hidden;
+}
+#chess .imagebox img{
+    width: 100%;
+    border-radius: 5%;
+    transition: transform 1s;
+}
+#chess:hover .imagebox img{
+    transform: scale(1.1);
+}
+.divtitle{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-top: 5px;
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.4;
+}
+.test{
+    position: absolute;
+    text-transform: uppercase;
+    /* text-align: center; */
+    height: 200px;
+    font-family: Roboto;
+    color: darkcyan;
+    top: 230vh;
+    left: 18%;
+    background-color: lightcyan;
+}
+.part2{
+    width: 100%;
+    height: 120vh;
+    background: url(repo.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.testtitle ul li{
+    font-family: Roboto;
+    color: tomato;
+    font-size: 20px;
+}
+.test1{
+    position: absolute;
+    /* text-align: center; */
+    height: 200px;
+    font-family: Roboto;
+    color: darkcyan;
+    top: 280vh;
+    left: 18%;
+    background-color: lightcyan;
+}
+#chess1{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: yellow;
+    border-radius: 5%;
+}
+#chess1 .imagebox1{
+    position: relative;
+    overflow: hidden;
+}
+#chess1 .imagebox1 img{
+    width: 250px;
+    height: 300px;;
+    border-radius: 50%;
+}
+.divtitle1{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    margin-top: 5px;
+    color: red;
+    font-size: 20px;
+    transition: 0.4;
+}
+.content1{
+    width: 100%;
+    /* margin: 0 auto; */
+}
